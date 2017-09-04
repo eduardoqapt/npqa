@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SendEmailTest]">
+  <test name="SendEmailTest(failed)">
+    <classes>
+      <class name="com.npqa.webTest.SendEmailTest">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="sendEmail"/>
+          <include name="setUpDriver"/>
+        </methods>
+      </class> <!-- com.npqa.webTest.SendEmailTest -->
+    </classes>
+  </test> <!-- SendEmailTest(failed) -->
+</suite> <!-- Failed suite [SendEmailTest] -->

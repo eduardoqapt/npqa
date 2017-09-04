@@ -1,0 +1,14 @@
+<suite  name="SendEmailTest" verbose ="1">
+	<test name="SendEmailTest" verbose ="1" preserve-order="true">
+		<classes>
+			<class name="com.npqa.webTest.SendEmailTest" verbose ="1">
+				<methods>
+					<include name="login" />
+					<include name="clickCompose" />
+					<include name="composeEmail" />
+					<include name="sendEmail" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SendEmailTest" duration-ms="24574" started-at="2017-09-04T19:47:53Z" finished-at="2017-09-04T19:48:17Z">
+    <groups>
+    </groups>
+    <test name="SendEmailTest" duration-ms="24574" started-at="2017-09-04T19:47:53Z" finished-at="2017-09-04T19:48:17Z">
+      <class name="com.npqa.webTest.SendEmailTest">
+        <test-method status="PASS" signature="setUpDriver()[pri:0, instance:com.npqa.webTest.SendEmailTest@cb5822]" name="setUpDriver" is-config="true" duration-ms="6107" started-at="2017-09-04T20:47:53Z" finished-at="2017-09-04T20:47:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpDriver -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.npqa.webTest.SendEmailTest@cb5822]" name="login" duration-ms="9187" started-at="2017-09-04T20:47:59Z" finished-at="2017-09-04T20:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="clickCompose()[pri:0, instance:com.npqa.webTest.SendEmailTest@cb5822]" name="clickCompose" duration-ms="1897" started-at="2017-09-04T20:48:08Z" finished-at="2017-09-04T20:48:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCompose -->
+        <test-method status="PASS" signature="composeEmail()[pri:0, instance:com.npqa.webTest.SendEmailTest@cb5822]" name="composeEmail" duration-ms="5825" started-at="2017-09-04T20:48:10Z" finished-at="2017-09-04T20:48:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- composeEmail -->
+        <test-method status="PASS" signature="sendEmail()[pri:0, instance:com.npqa.webTest.SendEmailTest@cb5822]" name="sendEmail" duration-ms="1476" started-at="2017-09-04T20:48:16Z" finished-at="2017-09-04T20:48:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendEmail -->
+        <test-method status="PASS" signature="quitDriver()[pri:0, instance:com.npqa.webTest.SendEmailTest@cb5822]" name="quitDriver" is-config="true" duration-ms="58" started-at="2017-09-04T20:48:17Z" finished-at="2017-09-04T20:48:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.npqa.webTest.SendEmailTest -->
+    </test> <!-- SendEmailTest -->
+  </suite> <!-- SendEmailTest -->
+</testng-results>
